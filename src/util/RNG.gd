@@ -12,5 +12,5 @@ func weighted_pick(array: Array) -> Object:
 	for item in array:
 		p -= item[0]
 		if p <= 0:
-			return item
+			return item[1]
 	return null
