@@ -12,7 +12,7 @@ _global_script_classes=[ {
 "base": "Object",
 "class": "Iterator",
 "language": "GDScript",
-"path": "res://src/util/dstruct/Iterator.gd"
+"path": "res://src/util/Iterator.gd"
 } ]
 _global_script_class_icons={
 "Iterator": ""
