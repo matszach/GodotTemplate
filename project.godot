@@ -18,10 +18,16 @@ _global_script_classes=[ {
 "class": "Iterator",
 "language": "GDScript",
 "path": "res://src/util/Iterator.gd"
+}, {
+"base": "RandomNumberGenerator",
+"class": "RNG",
+"language": "GDScript",
+"path": "res://src/util/RNG.gd"
 } ]
 _global_script_class_icons={
 "InputHelper": "",
-"Iterator": ""
+"Iterator": "",
+"RNG": ""
 }
 
 [application]
