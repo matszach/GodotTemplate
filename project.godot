@@ -8,6 +8,16 @@
 
 config_version=4
 
+_global_script_classes=[ {
+"base": "Object",
+"class": "Iterator",
+"language": "GDScript",
+"path": "res://src/util/dstruct/Iterator.gd"
+} ]
+_global_script_class_icons={
+"Iterator": ""
+}
+
 [application]
 
 config/name="Template"
