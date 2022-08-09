@@ -23,11 +23,17 @@ _global_script_classes=[ {
 "class": "RNG",
 "language": "GDScript",
 "path": "res://src/util/RNG.gd"
+}, {
+"base": "CanvasLayer",
+"class": "TransitionHandler",
+"language": "GDScript",
+"path": "res://src/ui/TransitionHandler.gd"
 } ]
 _global_script_class_icons={
 "InputHelper": "",
 "Iterator": "",
-"RNG": ""
+"RNG": "",
+"TransitionHandler": ""
 }
 
 [application]
