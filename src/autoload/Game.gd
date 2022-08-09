@@ -1,4 +1,5 @@
 extends Node
 
 func _ready() -> void:
-	Logger.info('Game Started')
+	Logger.info('game started')
+	SaveState.load_data()

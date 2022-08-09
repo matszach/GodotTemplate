@@ -5,7 +5,8 @@ enum Level {
 	WARN = 3, 
 	INFO = 2, 
 	DEBUG = 1, 
-	TRACE = 0
+	TRACE = 0,
+	NONE = -1
 }
 
 var level: int = self.Level.DEBUG
